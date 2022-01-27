@@ -1,18 +1,22 @@
-# Lab 1 - Network Traffic & DoS Attack on GENI
+# Lab 1 - Network Traffic & DoS Attack
 
-In this lab, we will perform an experimental Denial-of-Service attack and collect network packets on the GENI testbed. First your request to join the class project needs to be approved by the instructor or CA. So please send out the request ASAP!!
+In this lab, we will perform an experimental Denial-of-Service attack and collect network packets.
 
-## GENI 101
+## Setup
 
-Please set up your GENI account ASAP. Go to [https://portal.geni.net] and log in with your JHU ID. You may need to search for "Johns Hopkins" the first time.
-After you log into the GENI Portal, find Join the Project button and request to join the class project named "EN650654-2021". 
-- Once you are approved to join the project, you can create your own experiment slices.
-- For Windows users, please refer to these getting started series of [win-1](http://mountrouidoux.people.cofc.edu/CyberPaths/GettingStartedWindows.html) and [win-2](http://mountrouidoux.people.cofc.edu/CyberPaths/GettingStartedWindowsHelloGENI.html).
-- For Mac users, please refer to these guides of [mac-1](http://mountrouidoux.people.cofc.edu/CyberPaths/GettingStartedMac.html) and [mac-2](http://mountrouidoux.people.cofc.edu/CyberPaths/GettingStartedMacHelloGENI.html).
+Go to http://www.cis.syr.edu/~wedu/seed/lab_env.html to install the pre-built VM image (Ubuntu 16.04 32 bits).
+
+• VM setup instruction (in Virtualbox): http://www.cis.syr.edu/~wedu/seed/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf
+• User manual (contains the usernames and passowrds): http://www.cis.syr.edu/~wedu/seed/Documentation/Ubuntu16_04_VM/Ubuntu16_04_VM_Manual.pdf
+
+In this lab, you need to have three VMs under the same local network. Note that these three VMs should be in the promiscuous mode in order to listen to traffics from other VMs. Once you have configured a VM, you can simply clone that VM for two more times to complete the VM setup. Please refer to Appendix A and B of the VM setup instruction.
 
 ## Lab Instructions 
 
-Please follow the instructions on [this page](http://mountrouidoux.people.cofc.edu/CyberPaths/networktrafficandddos.html) to complete the lab. In case the hyperlink does not work, here's the full URL: [http://mountrouidoux.people.cofc.edu/CyberPaths/networktrafficandddos.html]
+1. Please follow the instructions on [this page](https://seedsecuritylabs.org/Labs_16.04/PDF/TCP_Attacks.pdf) to complete the task 1: SYN Flooding Attack of the lab. In case the hyperlink does not work, here's the full URL: [https://seedsecuritylabs.org/Labs_16.04/PDF/TCP_Attacks.pdf]. 
+2. You need to fulfill some required additional tasks.
+
+## Lab Instructions 
 
 **Note: A few changes are needed in order to successfully run this lab:**
 - Setup: Step 5: Please use the new rspec file "denialOfServiceLevel1_NEW.txt" instead of the file at the given link. You can use the File option or copy the content of "denialOfServiceLevel1_NEW.txt" using the Text Box option.
