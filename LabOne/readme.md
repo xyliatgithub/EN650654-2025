@@ -6,8 +6,8 @@ In this lab, we will perform an experimental Denial-of-Service attack and collec
 
 Go to http://www.cis.syr.edu/~wedu/seed/lab_env.html to install the pre-built VM image (Ubuntu 16.04 32 bits).
 
-• VM setup instruction (in Virtualbox): http://www.cis.syr.edu/~wedu/seed/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf
-• User manual (contains the usernames and passowrds): http://www.cis.syr.edu/~wedu/seed/Documentation/Ubuntu16_04_VM/Ubuntu16_04_VM_Manual.pdf
+- VM setup instruction (in Virtualbox): http://www.cis.syr.edu/~wedu/seed/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf
+- User manual (contains the usernames and passowrds): http://www.cis.syr.edu/~wedu/seed/Documentation/Ubuntu16_04_VM/Ubuntu16_04_VM_Manual.pdf
 
 In this lab, you need to have three VMs under the same local network. Note that these three VMs should be in the promiscuous mode in order to listen to traffics from other VMs. Once you have configured a VM, you can simply clone that VM for two more times to complete the VM setup. Please refer to Appendix A and B of the VM setup instruction.
 
