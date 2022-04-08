@@ -1,4 +1,4 @@
-# Lab 4 - Intrusion Detection Systems on GENI
+# Lab 4 - Intrusion Detection Systems
 
 In this lab assignment, you will get familiar with the intrusion detection system of Snort. 
 
