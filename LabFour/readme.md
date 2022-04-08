@@ -1,4 +1,4 @@
-# Lab 4 - Intrusion Detection Systems
+# Lab 4 - Snort
 
 In this lab assignment, you will get familiar with the intrusion detection system of Snort. 
 
