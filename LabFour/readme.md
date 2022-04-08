@@ -2,12 +2,12 @@
 
 In this lab assignment, you will get familiar with the intrusion detection system of Snort. 
 
-The goals of this lab are:
+The goals of this lab include:
 1.	To get you acquainted with Intrusion Detection Systems (IDSs)
-2.	To install an IDS on a real machine
-3.	To use the IDS to detect Denial of Service Attacks
+2.	To use the IDS to detect potnetial attacks
+3.	To study IDS logs and understand them
 4.	To create and study IDS rules
-5.	To study IDS logs and understand them
+
 
 ## Setup
 
