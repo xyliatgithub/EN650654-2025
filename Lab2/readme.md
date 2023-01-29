@@ -1,4 +1,4 @@
-# Lab 1 - Network Traffic & DoS Attack
+# Lab 2 - Network Traffic & DoS Attack
 
 In this lab, we will perform an experimental Denial-of-Service attack and collect network packets.
 
