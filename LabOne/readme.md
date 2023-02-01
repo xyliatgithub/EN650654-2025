@@ -27,8 +27,7 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 - Task 8 & 9: If you don't attack successfully, maybe you need to flush the cache and retry the DNS request multiple times.
 
 **Files that are Needed (Zone Files for DNS Setup):**
-- Zone file for domain example.com: /var/cache/bind/example.com.db
-- Zone file for DNS reverse lookup: /var/cache/bind/192.168.0
-
+- Zone file for domain example.com: https://seedsecuritylabs.org/Labs_16.04/Networking/DNS_Local/example.com.db
+- Zone file for DNS reverse lookup: https://seedsecuritylabs.org/Labs_16.04/Networking/DNS_Local/192.168.0
 - Note: If you choose different IP addresses or domain names, you need to modify the above configuration and zone files accordingly.
 
