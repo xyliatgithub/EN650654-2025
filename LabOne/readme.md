@@ -15,7 +15,7 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 ## Instructions
 
 1. Please follow the instructions in the DNS_Local PDF file to complete all the 9 tasks. The first three tasks are basically the environment and DNS setup.   
-•	Note: You will not be able to complete all the tasks without proper setup. So, if you encounter any problem, please reach out to the CA for help ASAP. 
+•	Note: You will not be able to complete all the tasks without proper setup. If you encounter any problem, please reach out to the CA for help ASAP. 
 
 2. Please complete the following additional tasks:  
 •	In **Task 5 - Directly Spoofing Response to User**, use tcpdump on the "User" machine to capture all the DNS packets.  
