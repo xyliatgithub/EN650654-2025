@@ -1,6 +1,6 @@
 # Lab 1 - Local DNS Attack
 
-In this lab assignment, you will need to setup multiple SEED lab VMs (in this lab, we need to setup three VMs) and perform an DNS attack. 
+In this lab assignment, you will need to setup multiple SEED lab VMs and perform an DNS attack. 
 
 ## Setup 
 
