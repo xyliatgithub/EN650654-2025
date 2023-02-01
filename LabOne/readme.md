@@ -30,7 +30,7 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 
 ## Required Files for DNS Setup
 
-** Zone Files for DNS Setup: **
+**Zone Files for DNS Setup:**
 - Zone file for domain example.com: https://seedsecuritylabs.org/Labs_16.04/Networking/DNS_Local/example.com.db
 - Zone file for DNS reverse lookup: https://seedsecuritylabs.org/Labs_16.04/Networking/DNS_Local/192.168.0
 - Note: If you choose different IP addresses or domain names, you need to modify the above configuration and zone files accordingly.
