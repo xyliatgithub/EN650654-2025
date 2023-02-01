@@ -25,3 +25,9 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 - Task 5: If the attack is successful at first, it is probably that the request you sent using netwox does not arrive at the user's machine before the local DNS server's packet. You can try to use dig to send more requests on the user machine while running netwox.
 - Task 7: To improve the attack success rate, you can modify the final line of the program to only respond to packets from the server: pkt = sniff(filter='udp and dst port 53 and src <your DNS server's address>', prn=spoof_dns).
 - Task 8 & 9: If you don't attack successfully, maybe you need to flush the cache and retry the DNS request multiple times.
+
+**Files that are Needed (Zone Files for DNS Setup):**
+- Zone file for domain example.com: /var/cache/bind/example.com.db
+- Zone file for DNS reverse lookup: /var/cache/bind/192.168.0
+Note: If you choose different IP addresses or domain names, you need to modify the above configuration and zone files accordingly.
+
