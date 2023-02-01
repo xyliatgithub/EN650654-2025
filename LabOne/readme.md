@@ -1,6 +1,6 @@
 # Lab 1 - Local DNS Attack
 
-In this lab assignment, you will need to setup multiple SEED lab VMs and perform an DNS attack. 
+In this lab assignment, you will need to setup multiple SEED lab VMs and perform an DNS attack. In addition to those tasks required by the SEED lab documentation, you also need to finish the additional tasks described below.
 
 ## Setup 
 
@@ -17,7 +17,7 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 1. Please follow the instructions in the DNS_Local PDF file to complete all the 9 tasks. The first three tasks are basically the environment and DNS setup.   
 •	Note: You will not be able to complete all the tasks without proper setup. If you encounter any problem, please reach out to the CA for help ASAP. 
 
-2. Please complete the following additional tasks:  
+2. Please complete the following **additional tasks**:  
 •	In **Task 5 - Directly Spoofing Response to User**, use tcpdump on the "User" machine to capture all the DNS packets.  
 •	Since you know the IP address of the local DNS server, if there are any DNS responses that are NOT coming from the DNS server, then those DNS responses might be the spoofed packets coming from the attacker. Are you able to use tcpdump to specifically capture those spoofed DNS packets?  Explain why or why not clearly. If not, how do you detect such attacks that may include additional processing steps? Please specifically describe your attempts.  
 
