@@ -30,5 +30,5 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 - Zone file for domain example.com: /var/cache/bind/example.com.db
 - Zone file for DNS reverse lookup: /var/cache/bind/192.168.0
 
-Note: If you choose different IP addresses or domain names, you need to modify the above configuration and zone files accordingly.
+- Note: If you choose different IP addresses or domain names, you need to modify the above configuration and zone files accordingly.
 
