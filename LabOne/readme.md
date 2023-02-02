@@ -35,7 +35,7 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 - Zone file for DNS reverse lookup: https://seedsecuritylabs.org/Labs_16.04/Networking/DNS_Local/192.168.0
 - Note: If you choose different IP addresses or domain names, you need to modify the above configuration and zone files accordingly.
 
-## Grading (40 points)
-* Completeness (25 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
+## Grading (50 points)
+* Completeness (35 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
 * Presentation (15 pts): The report must be clear and correct in organization and writing with adequate explanation.
 
