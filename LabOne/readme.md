@@ -1,4 +1,4 @@
-# Lab 1 - Local DNS Attack
+# Lab 1 - Local DNS Attack and Detection
 
 In this lab assignment, you will need to setup multiple SEED lab VMs and perform an DNS attack. In addition to those tasks required by the SEED lab documentation, you also need to finish the additional tasks described below.
 
@@ -34,4 +34,8 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 - Zone file for domain example.com: https://seedsecuritylabs.org/Labs_16.04/Networking/DNS_Local/example.com.db
 - Zone file for DNS reverse lookup: https://seedsecuritylabs.org/Labs_16.04/Networking/DNS_Local/192.168.0
 - Note: If you choose different IP addresses or domain names, you need to modify the above configuration and zone files accordingly.
+
+## Grading (40 points)
+* Completeness (25 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
+* Presentation (15 pts): The report must be clear and correct in organization and writing with adequate explanation.
 
