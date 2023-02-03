@@ -37,7 +37,7 @@ Once you have configured a VM, you can simply clone that VM for two more times t
 - Note: If you choose different IP addresses or domain names, you need to modify the above configuration and zone files accordingly.
 
 ## Grading (50 points)
-Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. See the example for what it should look like.
+Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. See the lab submission example for what it should look like.
 * Completeness (35 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
 * Presentation (15 pts): The report must be clear and correct in organization and writing with adequate explanation.
 
