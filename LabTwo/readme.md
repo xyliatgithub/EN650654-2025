@@ -33,7 +33,7 @@ In this lab, you need to have three VMs under the same local network. Note that 
 - Did the attack end at some point? What do you think happened at this point?
 - Repeat the experiments from (2) to (6) at least four more times. You will need to change the name of the data file everytime (e.g., *capture1.pcap*, *capture2.pcap*, ...).
 - Using Wireshark to take the statistics of packet size and bandwidth of the normal traffic and the traffic during the attack respectively from each pcap file and put these in an Excel spreadsheet. You should have two tables. One table has packet size and bandwidth values for normal traffic and the other table for the traffic during the attack. Hint: Look at the I/O graph and locate a point where the attack started, and then use filters to display the packets received before or after that point. Then check the statistics of the displayed packets.
-- 
+ 
 ### 4. Statistic Analysis
 - Calculate the average and standard deviation of these two sets of data. Describe your observations of the results. Copy the spreadsheet, average, standard deviation and the graph you plotted to your report.
 
