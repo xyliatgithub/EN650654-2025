@@ -4,12 +4,11 @@ In this lab, we will perform an experimental Denial-of-Service attack and collec
 
 ## Setup
 
-Go to http://www.cis.syr.edu/~wedu/seed/lab_env.html to install the pre-built VM image (Ubuntu 16.04 32 bits).
-
-- VM setup instruction (in Virtualbox): http://www.cis.syr.edu/~wedu/seed/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf
-- User manual (contains the usernames and passowrds): http://www.cis.syr.edu/~wedu/seed/Documentation/Ubuntu16_04_VM/Ubuntu16_04_VM_Manual.pdf
+- Go to http://www.cis.syr.edu/~wedu/seed/lab_env.html to install the pre-built VM image (Ubuntu 16.04 32 bits).
+- VM setup instruction (in Virtualbox): this manual also contains account information (usernames and passowrds) https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf
 
 In this lab, you need to have three VMs under the same local network. Note that these three VMs should be in the promiscuous mode in order to listen to traffics from other VMs. Once you have configured a VM, you can simply clone that VM for two more times to complete the VM setup. Please refer to Appendix A and B of the VM setup instruction.
+
 
 ## Lab Instructions 
 
@@ -20,7 +19,7 @@ In this lab, you need to have three VMs under the same local network. Note that 
 
 ### 1. Setups
 - Install iperf on the "Attacker" machine and the "Client" machine using: *sudo apt-get install iperf*.
-- We will now collect data on normal traffic and DoS traffic and compare them. First, go to a terminal that corresponds to the "Server" machine and press both the Ctrl key and C key together. Now in this terminal, Type: *sudo tcpdump -i eth1 -s0 -w capture1.pcap* (Change the eth1 to the eth you have. After running ifconfig, we are looking for 10.0.2.17 and see that it is located beside "eth2". The 'eth' you see on your screen that corresponds to your specific number is what you will type.) and hit Enter on your keyboard. This command captures the packet traffic and writes it in a file called *capture1.pcap*.
+- We will now collect data of normal traffic and DoS traffic and compare them. First, go to a terminal that corresponds to the "Server" machine and press both the Ctrl key and C key together. Now in this terminal, Type: *sudo tcpdump -i eth1 -s0 -w capture1.pcap* (Change the eth1 to the eth you have. After running ifconfig, we are looking for 10.0.2.17 and see that it is located beside "eth2". The 'eth' you see on your screen that corresponds to your specific number is what you will type.) and hit Enter on your keyboard. This command captures the packet traffic and writes it in a file called *capture1.pcap*.
 - Open another terminal on the "Server" machine and press both the Ctrl key and C key together. Now in this terminal, Type: *iperf -s* and hit Enter on your keyboard. When you use *iperf -s* you are running an iperf server. 
 - Next you will run an iperf client on the “Client” machine and generate some regular traffic. Go to a terminal that corresponds to the "Client" machine. Type: *iperf -c Server_IP* and hit Enter on your keyboard. You need to use the real IP address of the "Server" machine in this command. Wait for at least 5 seconds and do the next step.
 
@@ -34,7 +33,7 @@ In this lab, you need to have three VMs under the same local network. Note that 
 - Repeat the experiment from (1) to (3) at least four more times for the task below. You will need to change the name of the data file everytime, e.g., *capture1.pcap*, *capture2.pcap*, .... (You do not need to show the I/O graph for the repeated experiements.)
 - Use Wireshark to take the statistics of packet size and bandwidth of the normal traffic and the traffic during the attack respectively from each pcap file and put these in an Excel spreadsheet. You should have two tables. One table has packet size and bandwidth values for normal traffic and the other table for the traffic during the attack. Hint: Look at the I/O graph and locate a point where the attack started, and then use filters to display the packets received before or after that point. Then check the statistics of the displayed packets.
  
-### 4. Statistic Analysis
+### 4. Statistical Analysis
 - Calculate the average and standard deviation of these two sets of data. Describe your observations of the results. Copy the spreadsheet, average, standard deviation and the graph you plotted to your report.
 
 ## Grading (50 points)
