@@ -21,3 +21,8 @@ In this lab, you need to have three VMs under the same local network. Note that 
 ## Lab Instructions  
 Follow [this page](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabThree/Lab%203%20Manual.pdf) and complete Part 1 to Part 4. 
 
+## Grading (50 points)
+Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. Add adeuqate explaination as needed. See the lab submission example for what it should look like.
+* Completeness (35 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
+* Presentation (15 pts): The report must be clear and correct in organization and writing with adequate explanation.
+
