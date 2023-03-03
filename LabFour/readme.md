@@ -18,3 +18,8 @@ Please complete the lab tasks of 2.1, 2.3, and 2.4 in Section 2 (2.2 is not requ
 - In this lab, you need to block a website. Many famous website use many IP addresses now. It might be too difficult to block these websites. However, you could just block a website with a static IP address, like www.syr.edu.   
 
 - Sometimes even if your firewall settings are correct, it may still not block the target website. This may be due to the configuration principle of UFW. The matching of UFW rules is based on the order in which the rules appear, so once a rule is matched, the check stops. To fix this, you could edit /etc/ufw/before.rules file. Add your rule under "# End required lines" in the file. The rule should be look like "-A ufw-before-input -s <your vm's IP> -j DROP". Then, run the command "ufw reload".
+
+## Grading (50 points)
+Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. Add adeuqate explaination as needed. See the lab submission example for what it should look like.
+* Completeness (35 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
+* Presentation (15 pts): The report must be clear and correct in organization and writing with adequate explanation.
