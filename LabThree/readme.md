@@ -19,5 +19,5 @@ Go to http://www.cis.syr.edu/~wedu/seed/lab_env.html to install the pre-built VM
 In this lab, you need to have three VMs under the same local network. Note that these three VMs should be in the promiscuous mode in order to listen to traffics from other VMs. Once you have configured a VM, you can simply clone that VM for two more times to complete the VM setup. Please refer to Appendix A and B of the VM setup instruction.
 
 ## Lab Instructions  
-Follow [this page](https://github.com/xyliatgithub/EN650654-2022/blob/main/LabFour/Lab%204%20Manual.pdf) and complete Part 1 to Part 4. 
+Follow [this page](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabThree/Lab%203%20Manual.pdf) and complete Part 1 to Part 4. 
 
