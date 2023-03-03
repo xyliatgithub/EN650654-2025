@@ -1,4 +1,4 @@
-# Lab 3 - Linux Firewall Exploration
+# Lab 4 - Linux Firewall Exploration
 
 In this lab, you will study the firewall and its logs in Linux systems using a SEED lab module.
 
