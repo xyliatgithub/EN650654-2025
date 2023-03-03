@@ -4,7 +4,7 @@ In this lab, you will study the firewall and its logs in Linux systems using a S
 
 
 ## Lab Instructions 
-Please complete the lab tasks of 2.1, 2.3, and 2.4 in Section 2 (2.2 is not required so you only need to use UFW) of the Firewall.pdf file. You also need to finish the additional tasks described below.
+Please complete the lab tasks of 2.1, 2.3, and 2.4 in Section 2 (2.2 is not required so you only need to use UFW) of the Firewall.pdf file follow [this page](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFour/Firewall.pdf). You also need to finish the additional tasks described below.
 
 
 ### Additional Tasks
@@ -18,9 +18,6 @@ Please complete the lab tasks of 2.1, 2.3, and 2.4 in Section 2 (2.2 is not requ
 - In this lab, you need to block a website. Many famous website use many IP addresses now. It might be too difficult to block these websites. However, you could just block a website with a static IP address, like www.syr.edu.   
 
 - Sometimes even if your firewall settings are correct, it may still not block the target website. This may be due to the configuration principle of UFW. The matching of UFW rules is based on the order in which the rules appear, so once a rule is matched, the check stops. To fix this, you could edit /etc/ufw/before.rules file. Add your rule under "# End required lines" in the file. The rule should be look like "-A ufw-before-input -s <your vm's IP> -j DROP". Then, run the command "ufw reload".
-
-## Lab Instructions  
-Follow [this page](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFour/Firewall.pdf) and complete the lab. 
 
 ## Grading (50 points)
 Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. Add adeuqate explaination as needed. See the lab submission example for what it should look like.
