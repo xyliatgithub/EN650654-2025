@@ -16,7 +16,7 @@ Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not 
 
 **Something needs to be noticed when you are working on this lab:**
 
-- In this lab you are asked to work with **(ufw)** not **(iptables)** 
+- In this lab you are asked to work with **ufw** tool instead of working directly with **iptables**. 
 
 - Task1, Step3: blocking a specific IP Address: 
   - To obtain the IP Address of a hostname use the command:
@@ -27,12 +27,12 @@ Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not 
 - Task 3.a 
   - Use three VMs A, B and C. 
   - Provide a screenshot of each captured traffic on each machine.
-  - When you telnet to machine C you shoud use the command as: ssh -L 8000:Machine_C_IP:23 seed@Machine_B_IP and vice versa.
+  - When you telnet to machine C you should use the command as: ssh -L 8000:Machine_C_IP:23 seed@Machine_B_IP and vice versa.
   
 
 - Task4
   - Before you start this task, make sure you have deleted all rules that you had added in previous tasks.
-  - Store this file in machine A, in the directory (/var/www/html/test.html).
+  - Store this file in machine A, in the directory "/var/www/html/test.html".
   - Now you can access that page from machine B using the browser by typing  [Machin_A_IP/test.html] on the URL field.
 
 - In this lab, you need to block a website. Many famous website use many IP addresses now. It might be too difficult to block these websites. However, you could just block a website with a static IP address, like www.syr.edu.   
@@ -40,6 +40,6 @@ Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not 
 - Sometimes even if your firewall settings are correct, it may still not block the target website. This may be due to the configuration principle of UFW. The matching of UFW rules is based on the order in which the rules appear, so once a rule is matched, the check stops. To fix this, you could edit /etc/ufw/before.rules file. Add your rule under "# End required lines" in the file. The rule should be look like "-A ufw-before-input -s <your vm's IP> -j DROP". Then, run the command "ufw reload".
 
 ## Grading (50 points)
-Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. Add adeuqate explaination as needed. See the lab submission example for what it should look like.
+Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. Add adequate explanation as needed. See the lab submission example for what it should look like.
 * Completeness (35 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
 * Presentation (15 pts): The report must be clear and correct in organization and writing with adequate explanation.
