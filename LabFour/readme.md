@@ -14,7 +14,7 @@ Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not 
 
 - Provide a small program coded in either python or c  to read the UFW logs, and raise an alert if three blocked SSH records within a minute are generated. The records are generated from the UFW rule that blocks SSH connections from anywhere to the server (as in the first additional task).   
 
-###Importnant Notes
+### Importnant Notes
 
 - In this lab you are asked to work with **ufw** tool instead of working directly with **iptables**. 
 
