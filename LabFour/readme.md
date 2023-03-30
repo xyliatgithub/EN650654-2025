@@ -33,7 +33,7 @@ Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not 
 - Task4
   - Before you start this task, make sure you have deleted all rules that you had added in previous tasks.
   - Store [this file](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFour/test.html) in machine A, in the directory "/var/www/html/test.html".
-  - Now you can access that page from machine B using the browser by typing  [Machin_A_IP/test.html] on the URL field.
+  - Now you can access that page from machine B using the browser by typing "Machin_A_IP/test.html" on the URL field.
 
 - In this lab, you need to block a website. Many famous website use many IP addresses now. It might be too difficult to block these websites. However, you could just block a website with a static IP address, like www.syr.edu.   
 
