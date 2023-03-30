@@ -14,24 +14,26 @@ Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not 
 
 - Provide a small program coded in either python or c  to read the UFW logs, and raise an alert if three blocked SSH records within a minute are generated. The records are generated from the UFW rule that blocks SSH connections from anywhere to the server (as in the first additional task).   
 
-**Something needs to be noticed whe you are working on this lab:**
+**Something needs to be noticed when you are working on this lab:**
 
-- In this lab you are asked to work with (ufw) not (iptables) 
+- In this lab you are asked to work with **(ufw)** not **(iptables)** 
 
 - Task1, Step3: blocking a specific IP Address: 
-  - To obtain the IP Address of a hostname use the following command
-    $ host HOST_NAME  —> for example: $ host www.example.net
-  - After adding the required rule to ufw, erase the cache data
-    Mozilla Firefox -> Settings -> Preferences -> Privacy and Security -> clear Data -> Cached web Content -> Clear 
+  - To obtain the IP Address of a hostname use the command:
+    host HOST_NAME  —> for example: $ host www.example.net.
+  - After adding the required rule to ufw, erase the cache data:
+    Mozilla Firefox -> Settings -> Preferences -> Privacy and Security -> clear Data -> Cached web Content -> Clear.
 
 - Task 3.a 
-  - Use three VMs A,B,C 
-  - Provide a screenshot of each captured traffic on each machine 
+  - Use three VMs A, B and C. 
+  - Provide a screenshot of each captured traffic on each machine.
+  - When you telnet to machine C you shoud use the command as: ssh -L 8000:Machine_C_IP:23 seed@Machine_B_IP and vice versa.
+  
 
 - Task4
-  - Before you start this task, make sure you have deleted all rules that you had added in previous tasks 
-  - Store this file in machine A, in the directory (/var/www/html/test.html)
-  - Now you can access that page from machine B using the browser by typing  [Machin_A_IP/test.html] on the URL field 
+  - Before you start this task, make sure you have deleted all rules that you had added in previous tasks.
+  - Store this file in machine A, in the directory (/var/www/html/test.html).
+  - Now you can access that page from machine B using the browser by typing  [Machin_A_IP/test.html] on the URL field.
 
 - In this lab, you need to block a website. Many famous website use many IP addresses now. It might be too difficult to block these websites. However, you could just block a website with a static IP address, like www.syr.edu.   
 
