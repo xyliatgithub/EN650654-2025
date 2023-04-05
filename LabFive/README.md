@@ -18,9 +18,9 @@ Lastly, for this lab you will need five VMs. The Analyst VM will be connected to
 ## Lab Structure 
 The minimum hardware requirements for this lab are more than the hardware capabilities of most personal machines. Please, use one of the MSSI Lab machines to perform this lab. Additionally, please go through these documents **in order**.
 
-1. **[Analyst VM Installation:](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Importing%20the%20Analyst%20VM.pdf)** Follow this manual to import and configure the Analyst VM.
-2. **[Security Onion VM Installation:](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Installing%20Security%20Onion%20VM.pdf)** Follow this manual to install and configure Security Onion VM.
-3. **[Attacker VM Installation:](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Setting%20up%20other%20VMs.pdf)** Follow this manual to set up and configure the Attacker, Server, and User VMs.
+1. **[Importing the Analyst VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Importing%20the%20Analyst%20VM.pdf)** Follow this manual to import and configure the Analyst VM.
+2. **[Installing Security Onion VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Installing%20Security%20Onion%20VM.pdf)** Follow this manual to install and configure Security Onion VM.
+3. **[Set up other VMs](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Setting%20up%20other%20VMs.pdf)** Follow this manual to set up and configure the Attacker, Server, and User VMs.
 4. **[Security Onion Console:](...)** Explore Security Onion Console (SOC). 
 5. **NIDS Scenario:** Examine how Security Onion could be utilized as a Network-Based Intrusion Detection System. 
 6. **HIDS Scenario:** Examine how Security Onion could be used as a Host-Based Intrusion Detection System. 
