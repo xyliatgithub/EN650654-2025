@@ -1,4 +1,4 @@
-# Lab 5 - Security Onion Lab
+# Lab 5 - Security Onion 
 
 ## Overview
 In this lab, we will explore **Security Onion**, free and open source platform used for intrusion detection, security monitoring, and log management.
