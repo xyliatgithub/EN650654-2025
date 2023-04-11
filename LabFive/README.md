@@ -32,7 +32,7 @@ Please note that the minimum hardware requirements for this lab exceed the capab
 5. **[NIDS Section](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/NIDS%20Section.pdf)** Examine how Security Onion could function as a Network-Based Intrusion Detection System. 
 6. **[HIDS Section](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/HIDS%20Section.pdf)** Examine how Security Onion could be used as a Host-Based Intrusion Detection System.
 
-## Grading (XX 100? points)
+## Grading (80 points)
 Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. Add adequate explanation as needed. See the lab submission example for what it should look like.
-* Completeness (70 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
-* Presentation (30 pts): The report must be clear and correct in organization and writing with adequate explanation.
+* Completeness (60 pts): All the steps as instructed in the lab manual must be included in the report with adequate evidence.
+* Presentation (20 pts): The report must be clear and correct in organization and writing with adequate explanation.
