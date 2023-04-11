@@ -21,6 +21,6 @@ The minimum hardware requirements for this lab are more than the hardware capabi
 1. **[Importing the Analyst VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Importing%20the%20Analyst%20VM.pdf)** Follow this manual to import and configure the Analyst VM.
 2. **[Installing Security Onion VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Installing%20Security%20Onion%20VM.pdf)** Follow this manual to install and configure Security Onion VM.
 3. **[Setting up other VMs](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Setting%20up%20other%20VMs.pdf)** Follow this manual to set up and configure the Attacker, Server, and User VMs.
-4. **SOC Section:** Explore Security Onion Console (SOC). 
-5. **[NIDS Section](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/NIDS%20Section.pdf)** Examine how Security Onion could function as a Network-Based Intrusion Detection System. 
-6. **HIDS Section:** Examine how Security Onion could be used as a Host-Based Intrusion Detection System.
+4. **[Security Onion Counsole ](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Security%20Onion%20Console.pdf)** Explore Security Onion Console. 
+6. **[NIDS Section](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/NIDS%20Section.pdf)** Examine how Security Onion could function as a Network-Based Intrusion Detection System. 
+7. **HIDS Section:** Examine how Security Onion could be used as a Host-Based Intrusion Detection System.
