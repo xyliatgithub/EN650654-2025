@@ -10,7 +10,8 @@ In this lab, we will:
 
 ## Lab Environment Setup
 
-   <img src="https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Lab%205%20-%20Network%20Setup%20.png" width="900">
+<img src="https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Lab%205%20-%20Network%20Setup%20.png" width="900">
+
 
 In this lab, we will have two networks: 
 For enhanced security in an enterprise setting, it is a common practice to separate the management traffic and production traffic.
