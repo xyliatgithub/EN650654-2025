@@ -6,7 +6,7 @@ In this lab, we will explore **Security Onion**, a free and open source platform
 
 ## Lab Environment Setup
 
-<img src="..." width="1000">
+<img src="https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Lab%205%20-%20Network%20Setup%20.png" width="1000">
 
 In this lab, you will have two networks: 
 1. **Management Network:** For enhanced security in an enterprise setting, it is a common practice to separate the management traffic and production traffic. This is achieved by configuring a dedicated management network (DMN) that is used only for administrative access. In which, management traffic is carried independently from traffic over the production network, making management significantly more reliable. This network is used by network administrators to access and configure network resources, such as switches, servers, and routers. In addition to performing software updates and performance monitoring.
