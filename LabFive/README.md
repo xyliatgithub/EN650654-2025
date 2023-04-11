@@ -10,7 +10,7 @@ In this lab, we will:
 
 ## Lab Environment Setup
 
-<img src="https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Lab%205%20-%20Network%20Setup%20.png" width="950">
+<img src="https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Lab%205%20-%20Network%20Setup%20.png" width="1000">
 
 
 In this lab, we will have two networks: 
