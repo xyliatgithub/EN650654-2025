@@ -1,7 +1,11 @@
 # Lab 5 - Security Onion 
 
 ## Overview
-In this lab, we will explore **Security Onion**, a free and open source platform used for intrusion detection, security monitoring, and log management.
+In this lab, we will: 
+- Understand the capabilities of Security Onion in intrusion detection, security monitoring, and log management.
+- Learn about the role of Security Onion in a Security Operations Center (SOC) and how it can enhance network security.
+- Gain practical experience in utilizing Security Onion as a SOC Analyst to identify and respond to potential security incidents.
+
 
 
 ## Lab Environment Setup
