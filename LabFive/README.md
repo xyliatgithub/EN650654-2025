@@ -1,7 +1,7 @@
 # Lab 5 - Security Onion 
 
 ## Overview
-In this lab, we will explore **Security Onion**, free and open source platform used for intrusion detection, security monitoring, and log management.
+In this lab, we will explore **Security Onion**, a free and open source platform used for intrusion detection, security monitoring, and log management.
 
 
 ## Lab Environment Setup
@@ -13,10 +13,10 @@ In this lab, you will have two networks:
 
 2. **Monitor Network:** In an enterprise setting we want to monitor the production network. This is done using Intrusion Detection Systems to monitor the production network and generate alerts for any malicious, anomalous, or otherwise suspicious traffic. 
 
-Lastly, for this lab you will need five VMs. The Analyst VM will be connected to the Management Network whereas the Attacker, Server and User VMs will be connected to the Monitor Network. At the same time, Security Onion VM will be connected to both networks.
+Lastly, this lab will use five VMs. The Analyst VM will be connected to the Management Network whereas the Attacker, Server and User VMs will be connected to the Monitor Network. At the same time, Security Onion VM will be connected to both networks.
 
 ## Lab Instructions 
-The minimum hardware requirements for this lab are more than the hardware capabilities of most personal machines. Please, use one of the MSSI Lab machines to perform this lab. Additionally, please go through these documents **in order**.
+The minimum hardware requirements for this lab are more than the hardware capabilities of most personal machines. Please, use one of the MSSI Lab machines to perform this lab. Additionally, please follow these documents **in order** while working on the lab tasks.
 
 1. **[Importing the Analyst VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Importing%20the%20Analyst%20VM.pdf)** Follow this manual to import and configure the Analyst VM.
 2. **[Installing Security Onion VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Installing%20Security%20Onion%20VM.pdf)** Follow this manual to install and configure Security Onion VM.
