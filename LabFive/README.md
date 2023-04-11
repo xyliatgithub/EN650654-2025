@@ -16,14 +16,14 @@ In this lab, we will:
 In this lab, we will have two networks: 
 For enhanced security in an enterprise setting, it is a common practice to separate the management traffic and production traffic.
 
-1. **Management Network:** A dedicated network used only for administrative access and management of network resources, such as switches, servers, and routers. This network is separate from the production network and provides enhanced security in an enterprise setting.
+1. **Management Network:** A dedicated network can be used only for administrative access and management of network resources, such as switches, servers, and routers. This network is separate from the production network and provides enhanced security in an enterprise setting.
 
 2. **Monitor Network:** In an enterprise setting we should monitor the production network. This is done using Intrusion Detection Systems to monitor the production network and generate alerts for any malicious, anomalous, or otherwise suspicious traffic. 
 
 You will also use five VMs: the Analyst VM connected to the Management Network, and the Attacker, Server, and User VMs connected to the Monitor Network. The Security Onion VM will be connected to both networks.
 
 ## Lab Instructions 
-Please note that the minimum hardware requirements for this lab exceed the capabilities of most personal machines. Please use one of the MSSI Lab machines to perform this lab. Additionally, please follow these documents **in order**
+Please note that the minimum hardware requirements for this lab exceed the capabilities of most personal machines. So you may need to use one of the mchineas in MSSI Computer Lab to perform this assignment. Additionally, please follow all the documents **in the following order**:
 
 1. **[Importing the Analyst VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Importing%20the%20Analyst%20VM.pdf)** Follow this manual to import and configure the Analyst VM.
 2. **[Installing Security Onion VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Installing%20Security%20Onion%20VM.pdf)** Follow this manual to install and configure Security Onion VM.
