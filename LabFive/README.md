@@ -23,7 +23,7 @@ For enhanced security in an enterprise setting, it is a common practice to separ
 You will also use five VMs: the Analyst VM connected to the Management Network, and the Attacker, Server, and User VMs connected to the Monitor Network. The Security Onion VM will be connected to both networks.
 
 ## Lab Instructions 
-Please note that the minimum hardware requirements for this lab exceed the capabilities of most personal machines. So you may need to use one of the mchineas in MSSI Computer Lab to perform this assignment. Additionally, please follow all the documents **in the following order**:
+Please note that the minimum hardware requirements for this lab exceed the capabilities of most personal machines. So you may need to use one of the machines in MSSI Computer Lab to perform the lab tasks. Additionally, please follow all the documents **in the following order**:
 
 1. **[Importing the Analyst VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Importing%20the%20Analyst%20VM.pdf)** Follow this manual to import and configure the Analyst VM.
 2. **[Installing Security Onion VM](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFive/Installing%20Security%20Onion%20VM.pdf)** Follow this manual to install and configure Security Onion VM.
