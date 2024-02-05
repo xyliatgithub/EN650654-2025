@@ -8,6 +8,7 @@ In this lab assignment, you will need to setup multiple SEED lab VMs and perform
 
 •	VM setup instruction (in Virtualbox): This manual also contains account information (usernames and passowrds) https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf  
 
+•	Note: VirtualBox is available for most consumer computers, but there are some exceptions for certain hardware architectures, such as Apple products with M1 Chip. If you have trouble with this step, we encourage you to find a solution by yourself, get a free copy of VMware Fusion as an MSSI student (contact Chris, please), or use a computer in our lab.
 
 In this lab, you need to have **three VMs** under the same local network. Note that these three VMs should be in the promiscuous mode in order to listen to traffics from other VMs. 
 Once you have configured a VM, you can simply clone that VM for two more times to complete the VM setup.   
