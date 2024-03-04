@@ -34,7 +34,7 @@ In this lab, you need to have three VMs under the same local network. Note that 
 - Use Wireshark to take the statistics of packet size and bandwidth of the normal traffic and the traffic during the attack respectively from each pcap file and put these in an Excel spreadsheet. You should have two tables. One table has packet size and bandwidth values for normal traffic and the other table for the traffic during the attack. (Hint: Look at the I/O graph and locate a point where the attack started, and then use filters to display the packets received before or after that point. Then check the statistics of the displayed packets.)
  
 ### 4. Statistical Analysis
-- Calculate the average and standard deviation of these two sets of data. Describe your observations of the results. Copy the spreadsheet, average, and standard deviation you plotted to your report.
+- Calculate the average and standard deviation of these two sets of data. Describe your observations of the results. Copy the spreadsheet, average, and standard deviation to your report.
 
 ## Grading (50 points)
 Please take screenshots periodically and regularly and include them in your report. They not only serve as evidence of completion but also help the grader understand what you try to achieve. Add adeuqate explaination as needed. See the lab submission example for what it should look like.
