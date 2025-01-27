@@ -2,16 +2,32 @@
 
 In this lab assignment, you will need to setup multiple SEED lab VMs and perform an DNS attack. In addition to those tasks required by the SEED lab documentation, you also need to finish the additional tasks described below.
 
-## Setup 
+## Setup  
 
-• Go to  http://www.cis.syr.edu/~wedu/seed/lab_env.html to install the pre-built VM image (Ubuntu 16.04 32 bits).  
+1. **Download the Pre-built VM Image**  
+   - Visit [SEED Labs Lab Setup](https://seedsecuritylabs.org/labsetup.html) to download the pre-built VM image (Ubuntu 16.04, 32-bit).  
 
-•	VM setup instruction (in Virtualbox): This manual also contains account information (usernames and passowrds) https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf  
+2. **VM Setup Instructions (in VirtualBox)**  
+   - Refer to the [SEED VM VirtualBox Manual](https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf) for detailed instructions on setting up the VM in VirtualBox.  
+   - This manual also contains account information, such as usernames and passwords.  
 
-•	Note: VirtualBox is available for most consumer computers, but there are some exceptions for certain hardware architectures, such as Apple products with M1 Chip. If you have trouble with this step, we encourage you to find a solution by yourself, get a free copy of VMware Fusion as an MSSI student (contact Chris, please), or use a computer in our lab.
+3. **Important Notes**  
+   VirtualBox is compatible with most consumer computers; however, there are exceptions for certain hardware architectures, such as Apple products with the M1 chip.  
+   If you encounter difficulties with this step, consider switching to a Windows machine or using the machines available in the MSSI lab.  
+   Below are instructions for setting up Ubuntu 22.04 using **VMware Fusion Player** on Apple M1 chip devices. However, please note that we have only verified the lab on Ubuntu 16.04 using VirtualBox, so there may be some differences. 
 
-In this lab, you need to have **three VMs** under the same local network. Note that these three VMs should be in the promiscuous mode in order to listen to traffics from other VMs. 
-Once you have configured a VM, you can simply clone that VM for two more times to complete the VM setup.   
+- **Using VMware Fusion Player**  
+   - VirtualBox does not fully support the SEED Ubuntu 16.04 VM on Apple Silicon machines (M chips). For these devices, we recommend using **VMware Fusion Player**.  
+   - Follow the instructions in the [SEED Labs VMware Fusion Guide](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) to:  
+     - Install VMware Fusion Player  
+     - Build the Ubuntu VM  
+     - Install necessary software inside the VM  
+
+4. **Lab Requirements**  
+   - You will need to set up **three VMs** connected to the same local network.  
+   - Ensure these VMs are configured in **promiscuous mode** to listen to network traffic from other VMs.  
+   - After configuring one VM, you can simply clone it **two additional times** to complete the setup.  
+
 
 ## Instructions
 
