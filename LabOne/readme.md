@@ -14,7 +14,7 @@ In this lab assignment, you will need to setup multiple SEED lab VMs and perform
 3. **Important Notes**  
    VirtualBox is compatible with most consumer computers; however, there are exceptions for certain hardware architectures, such as Apple products with the M1 chip.  
    If you encounter difficulties with this step, consider switching to a Windows machine or using the machines available in the MSSI lab.  
-   Below are instructions for setting up Ubuntu 22.04 using **VMware Fusion Player** on Apple M1 chip devices. However, please note that we have only verified the lab on Ubuntu 16.04 using VirtualBox, so there may be some differences. 
+   Below are instructions for setting up Ubuntu 22.04 using **VMware Fusion Player** on Apple M1 chip devices. However, **please note that we have only verified the lab on Ubuntu 16.04 using VirtualBox, so there may be some differences**. 
 
 - **Using VMware Fusion Player**  
    - VirtualBox does not fully support the SEED Ubuntu 16.04 VM on Apple Silicon machines (M chips). For these devices, we recommend using **VMware Fusion Player**.  
