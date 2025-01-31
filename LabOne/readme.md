@@ -5,25 +5,23 @@ In this lab assignment, you will need to setup multiple SEED lab VMs and perform
 ## Setup  
 
 1. **Download the Pre-built VM Image**  
-   - Visit [SEED Labs Lab Setup](https://seedsecuritylabs.org/labsetup.html) to download the pre-built VM image (Ubuntu 16.04, 32-bit).  
+   - Visit [SEED Labs Setup](https://seedsecuritylabs.org/labsetup.html) to download the pre-built VM image (Ubuntu 16.04, 32-bit).  
 
 2. **VM Setup Instructions (in VirtualBox)**  
    - Refer to the [SEED VM VirtualBox Manual](https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf) for detailed instructions on setting up the VM in VirtualBox.  
    - This manual also contains account information, such as usernames and passwords.  
 
-3. **Important Notes**  
-   VirtualBox is compatible with most consumer computers; however, there are exceptions for certain hardware architectures, such as Apple products with the M1 chip.  
-   If you encounter difficulties with this step, consider switching to a Windows machine or using the machines available in the MSSI lab.  
-   Below are instructions for setting up Ubuntu 22.04 using **VMware Fusion Player** on Apple M1 chip devices. However, **please note that we have only verified the lab on Ubuntu 16.04 using VirtualBox, so there may be some differences**. 
+3. **Important Notes about Apple Computer with ARM M Chips**  
+   - VirtualBox is compatible with most consumer computers.
+   - There were known problems with VirtualBox on Apple ARM Mac computers. The latest version 7.1 is stated to support these models. But we have not tested it.
+   - If you encounter difficulties with this, consider switching to a Windows machine or using the computers available in the MSSI lab.  
 
-- **Using VMware Fusion Player**  
-   - VirtualBox does not fully support the SEED Ubuntu 16.04 VM on Apple Silicon machines (M chips). For these devices, we recommend using **VMware Fusion Player**.  
-   - Follow the instructions in the [SEED Labs VMware Fusion Guide](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md) to:  
-     - Install VMware Fusion Player  
-     - Build the Ubuntu VM  
-     - Install necessary software inside the VM  
+4. **Using VMware Fusion Pro**  
+   - Another option is install VMware Fusion from https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html. However, it requires using Ubuntu 22.04.    
+   - You can follow the instructions in the [SEED Labs VMware Fusion Guide](https://github.com/seed-labs/seed-labs/blob/master/lab-setup/apple-arm/seedvm-fusion.md).  
+     - **Please note that we have only verified the lab on Ubuntu 16.04 using VirtualBox, so there may be some differences**.
 
-4. **Lab Requirements**  
+5. **Lab Requirements**  
    - You will need to set up **three VMs** connected to the same local network.  
    - Ensure these VMs are configured in **promiscuous mode** to listen to network traffic from other VMs.  
    - After configuring one VM, you can simply clone it **two additional times** to complete the setup.  
