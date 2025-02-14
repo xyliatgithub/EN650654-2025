@@ -18,7 +18,7 @@ In this lab, you need to have three VMs under the same local network. Note that 
 ## Additional Tasks
 
 ### 1. Setups
-- Install iperf on the "Attacker" machine and the "Client" machine using: *sudo apt-get install iperf*.
+- Install iperf on the "Server" machine and the "Client" machine using: *sudo apt-get install iperf*.
 - We will now collect data of normal traffic and DoS traffic and compare them. First, go to a terminal that corresponds to the "Server" machine and press both the Ctrl key and C key together. Now in this terminal, Type: **sudo tcpdump -i eth1 -s0 -w capture1.pcap** replacing eth1 with the correct network interface on your machine. To find the right one, run ifconfig and look for the IP address, the interface name will be listed before it. Use that interface name in the command and hit Enter on your keyboard. This command captures the packet traffic and writes it in a file called *capture1.pcap*.
 - Open another terminal on the "Server" machine and press both the Ctrl key and C key together. Now in this terminal, Type: **iperf -s** and hit Enter on your keyboard. When you use *iperf -s* you are running an iperf server. 
 - Next you will run an iperf client on the “Client” machine and generate some regular traffic. Go to a terminal that corresponds to the "Client" machine. Type: **iperf -c Server_IP** and hit Enter on your keyboard. You need to use the real IP address of the "Server" machine in this command. Wait for at least 5 seconds and do the next step.
