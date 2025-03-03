@@ -12,7 +12,7 @@ By completing this lab, you will:
 - Deploy adversarial attacks against spam filters using magic words.
 
 ## Setup
-This lab will be conducted using Google Colab as the development environment.
+This lab will be conducted using Google Colab as the development environment. Download dataset from [messages.csv](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/messages.csv)
 
 ### Required Notebooks
 - **Part 1:** [SVM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1_L8tAYfMG3Ah2gq4ozioLvPgfyA02DGe?usp=sharing)
