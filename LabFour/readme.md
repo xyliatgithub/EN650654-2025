@@ -4,7 +4,7 @@ In this lab, you will study the firewall and its logs in Linux systems using a S
 
 
 ## Lab Instructions 
-Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not required so you only need to use UFW) of the Firewall.pdf file following [this page](https://github.com/xyliatgithub/EN650654-2023/blob/main/LabFour/Firewall.pdf). You also need to finish the **additional tasks** described below.
+Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not required so you only need to use UFW) of the Firewall.pdf file following [this page](https://github.com/xyliatgithub/EN650654-2025/blob/main/LabFour/Firewall.pdf). You also need to finish the **additional tasks** described below.
 
 
 ### Additional Tasks
