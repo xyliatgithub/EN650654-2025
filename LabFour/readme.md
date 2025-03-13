@@ -25,7 +25,7 @@ Please complete the lab tasks of **2.1, 2.3, and 2.4** in Section 2 (2.2 is not 
     Mozilla Firefox -> Settings -> Preferences -> Privacy and Security -> clear Data -> Cached web Content -> Clear.
 
 - Task 3.a 
-  - Use three VMs A, B and C. 
+  - Use three VMs A, B and C. (machine A: running the firewall; machine B: outside of the firewall; machine C: outside of the firewall, running telnet server)
   - Provide a screenshot of each captured traffic on each machine.
   - When you telnet to machine C you should use the command as: ssh -L 8000:Machine_C_IP:23 seed@Machine_B_IP and vice versa.
   
