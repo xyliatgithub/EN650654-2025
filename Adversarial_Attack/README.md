@@ -2,6 +2,21 @@
 
 ## Introduction
 Machine learning-based spam filters classify emails based on labeled training data. However, adversarial attacks can modify spam emails to evade detection by making small but strategic changes. This lab explores how TF-IDF features are manipulated using the Projected Gradient Descent (PGD) algorithm to identify "magic words," which increase the chances of spam emails bypassing an SVM classifier. Additionally, we extend this attack to large language model-based spam filters, such as BERT and GPT-2.
+## Lab Framework Overview  
+
+This lab explores adversarial attacks on machine learning models, focusing on both **white-box** and **black-box** attack scenarios. The experiment is structured into two main parts:  
+
+### 1. White-Box Attack on Traditional Machine Learning Models  
+- This section employs a **Projected Gradient Descent (PGD) attack** on a **TF-IDF-based spam filter**.  
+- By perturbing the feature space, we identify specific **"magic words"** that can alter the classifier’s predictions.  
+- These magic words are then inserted into spam emails to evade detection, demonstrating the vulnerability of traditional spam filters to adversarial attacks.  
+
+### 2. Black-Box Attack on Large Language Models (LLMs)  
+- In this section, we extend the attack to **black-box settings**, targeting LLM-based classifiers such as **BERT** and **GPT-2**.  
+- Without access to model gradients, we apply the previously discovered magic words to real-world spam emails, modifying their structure and placement.  
+- By inserting these words at different positions, we generate **adversarial emails** and evaluate their impact on the LLM classifiers.  
+
+This lab provides insights into **adversarial vulnerabilities** in both machine learning and LLM-based spam filters, highlighting potential security risks and countermeasures.  
 
 ## Learning Objectives
 By completing this lab, you will:
