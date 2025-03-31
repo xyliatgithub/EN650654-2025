@@ -36,10 +36,11 @@ This lab will be conducted using Google Colab as the expriemtnal environment. Do
 - **Part 2:** [LLM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1Uuz2Qz9dsZzvTc1NuxElbhbqFFV_hsrk?usp=sharing)
 
 ## Lab Instructions
-1. Open both Colab notebooks provided above.
+1. Open both Colab notebooks provided above.******
 2. Follow the step-by-step instructions in the notebooks.
 3. Execute all code blocks and answer all related questions.
-4. Ensure that you understand and explain each step clearly within the notebook.
+4. You can transfer the "magic words" from Part 1 to Part 2 by copying or saving them temporarily in a file.
+5. Ensure that you understand and explain each step clearly within the notebook.
 
 ## Grading Criteria (50 Points)
 To complete the assignment, upload your completed **2 notebook files**. Make sure to include all required answers and code directly in the notebooks.
