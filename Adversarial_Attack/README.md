@@ -31,7 +31,7 @@ By completing this lab, you will:
 ## Setup
 - Download dataset from [messages.csv](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/messages.csv)
 - Download lab part 1 notebook [SVM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1vR9f-JPR5aMCzcOhwnI5byGo25EHf5OK?usp=sharing).
-  - Due to numpy version on colab not support PGD attack, you need to finish this part on your own machine, recommend to use anaconda and set a python version 3.9.21, other package requirements are listed in [requirements.txt](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/requirements.txt)
+  - Due to a recent change the numpy version on colab no longer support the PGD attack. Now you need to finish this part on your own machine, recommend to use anaconda and set a python version 3.9.21, other package requirements are listed in [requirements.txt](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/requirements.txt)
 - Copy lab part 2 notebook [LLM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1Uuz2Qz9dsZzvTc1NuxElbhbqFFV_hsrk?usp=sharing) on your drive.
 
 ### Required Notebooks
