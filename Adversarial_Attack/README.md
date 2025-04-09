@@ -34,18 +34,15 @@ By completing this lab, you will:
   - Due to a recent change the numpy version on colab no longer support the PGD attack. Now you need to finish this part on your own machine, recommend to use anaconda and set a python version 3.9.21, other package requirements are listed in [requirements.txt](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/requirements.txt)
 - Copy lab part 2 notebook [LLM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1Uuz2Qz9dsZzvTc1NuxElbhbqFFV_hsrk?usp=sharing) on your drive.
 
-### Required Notebooks
-- **Part 1:** [SVM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1vR9f-JPR5aMCzcOhwnI5byGo25EHf5OK?usp=sharing) 
-- **Part 2:** [LLM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1Uuz2Qz9dsZzvTc1NuxElbhbqFFV_hsrk?usp=sharing)
-- After finishing 2 part, export them and combine as one pdf file for submission. You can collapse all code block which you do not make any change before export.
 
-## Lab Instructions
-1. Open both Colab notebooks provided above.******
-2. Follow the step-by-step instructions in the notebooks.
-3. Execute all code blocks and answer all related questions.
-4. You can transfer the "magic words" from Part 1 to Part 2 by copying or saving them temporarily in a file.
-5. Ensure that you understand and explain each step clearly within the notebook.
-6. Compare White-box and Black-boax attacks successes using magic words/sentences.******
+
+## Lab Tasks
+1.  Follow the step-by-step instructions in the notebooks.
+2. Execute all code blocks and answer all related questions.
+3. You can transfer the "magic words" from Part 1 to Part 2 by copying or saving them temporarily in a file.
+4. Ensure that you understand and explain each step clearly within the notebook.
+5. Compare White-box and Black-boax attacks successes using magic words/sentences.******
+6. Please include the results in task outputs and the answers to the questions in one pdf file for submission.
 
 ## Grading Criteria (50 Points)
 To complete the assignment, upload your completed **2 notebook files**. Make sure to include all required answers and code directly in the notebooks.
