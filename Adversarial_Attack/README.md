@@ -41,8 +41,7 @@ By completing this lab, you will:
 2. Execute all code blocks and answer all related questions.
 3. You can transfer the "magic words" from Part 1 to Part 2 by copying or saving them temporarily in a file.
 4. Ensure that you understand and explain each step clearly within the notebook.
-5. Compare White-box and Black-boax attacks successes using magic words/sentences.******
-6. Please include the results in task outputs and the answers to the questions in one pdf file for submission.
+5. Please include the results in task outputs and the answers to the questions in one pdf file for submission.
 
 ## Grading Criteria (50 Points)
 To complete the assignment, upload your completed **2 notebook files**. Make sure to include all required answers and code directly in the notebooks.
