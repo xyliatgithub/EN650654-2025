@@ -47,10 +47,8 @@ To complete the assignment, upload your completed **2 notebook files**. Make sur
 
 ### Breakdown:
 - **Completeness (35 pts):**
-  - All steps must be completed as instructed in the notebooks.
-  - Provide adequate evidence, your runtime result when needed.
+  - All steps must be completed as instructed in the report.
+  - Provide adequate information and result of your tasks.
 - **Presentation (15 pts):**
-  - The notebook must be well-organized, clearly written, and properly formatted.
+  - The report must be well-organized, clearly written, and properly formatted.
   - Provide sufficient explanations for each step and concept.
-
-No separate report is needed; all responses and code should be contained within the notebooks.
