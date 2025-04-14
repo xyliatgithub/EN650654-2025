@@ -1,7 +1,7 @@
 # Lab 5 - Adversarial Attacks Against Spam Filters
 
 ## Introduction
-Machine learning-based spam filters classify emails based on labeled training data. However, adversarial attacks can modify spam emails to evade detection by making small but strategic changes. This lab explores how TF-IDF features are manipulated using the Projected Gradient Descent (PGD) algorithm to identify "magic words," which increase the chances of spam emails bypassing an SVM classifier. Additionally, we extend this attack to large language model-based spam filters, such as BERT and GPT-2.
+Machine learning-based spam filters classify emails based on labeled training data. However, adversarial attacks can modify spam emails to evade detection by making small but strategic changes. This lab explores how TF-IDF features are manipulated using the Projected Gradient Descent (PGD) algorithm to identify "magic words," which increase the chances of spam emails bypassing an SVM classifier. Additionally, we extend this attack to large language model-based spam filters, inclluding BERT and GPT-2.
 
 ## Lab Overview  
 
@@ -11,7 +11,7 @@ This lab explores adversarial attacks on machine learning models, focusing on bo
 - This section employs a **Projected Gradient Descent (PGD) attack** on a **TF-IDF-based spam filter**.  
 - By perturbing the model input in the feature space, we identify special **"magic words"** that can alter the classifier’s predictions.  
 - These magic words are then inserted into spam emails themselves to evade detection, demonstrating the vulnerability of traditional spam filters to adversarial attacks.
-- These words will also be used in the black-box attacks later. 
+- These words will also be used in the black-box attacks in Part 2. 
 
 ### 2. Black-Box Attack on Large Language Models (LLMs)  
 - In this section, we extend the attack to **black-box settings**, targeting LLM-based classifiers such as **BERT** and **GPT-2**.  
@@ -30,7 +30,7 @@ By completing this lab, you will:
 
 ## Setup
 - Download dataset from [messages.csv](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/messages.csv)
-- Download lab part 1 notebook [SVM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1vR9f-JPR5aMCzcOhwnI5byGo25EHf5OK?usp=sharing).
+- Download lab part 1 notebook [SVM Spam Filter and Adversarial Attack]().
   - Due to a recent change the numpy version on colab no longer support the PGD attack. Now you need to finish this part on your own machine, recommend to use anaconda and set a python version 3.9.21, other package requirements are listed in [requirements.txt](https://github.com/xyliatgithub/EN650654-2025/blob/492e90efef45f2d665280b40b44dad48e8626d4c/Adversarial_Attack/requirements.txt)
 - Copy lab part 2 notebook [LLM Spam Filter and Adversarial Attack](https://colab.research.google.com/drive/1Uuz2Qz9dsZzvTc1NuxElbhbqFFV_hsrk?usp=sharing) on your drive.
 
