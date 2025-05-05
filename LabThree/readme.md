@@ -4,8 +4,8 @@ In this lab assignment, you will get familiar with the network intrusion detecti
 
 The goals of this lab include:
 1.	To get you acquainted with Intrusion Detection Systems (IDSs)
-2.	To use the IDS to detect potnetial attacks
-3.	To study IDS logs and understand them
+2.	To use the IDS to detect attacks
+3.	To study IDS logs
 4.	To create and study IDS rules
 
 
