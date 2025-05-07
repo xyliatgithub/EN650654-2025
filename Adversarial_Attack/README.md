@@ -38,7 +38,7 @@ By completing this lab, you will:
 ## Lab Tasks
 1. Follow the step-by-step instructions in the notebooks.
 2. You can transfer the "magic words" from Part 1 to Part 2 by copying or saving them temporarily in a file.
-3. Ensure that you understand and explain each step clearly within the notebook.
+3. Ensure that you clearly understand and explain each step in the notebook.
 4. Execute all code blocks, describe the steps, and answer all related questions.
 5. Please include the information and results for all the tasks and the answers to the questions in one pdf file for submission.
 
